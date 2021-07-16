@@ -1,0 +1,42 @@
+.ManuSection{
+    padding-top: 120px;
+}
+.img-1{
+    width: 100%;
+   height: 400px;
+   margin-top: 50px;
+   border-radius: 15px;
+}
+.ManuSection-1{
+    border: 1px solid    rgb(241, 240, 240);
+    padding: 5px 10px;
+    color: whitesmoke;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.507), rgba(255,0,0,1));
+}
+
+
+@media (max-width: 768px) and (min-width: 501px) {
+    .ManuSection{
+        padding-top: 60px;
+    }
+    .img-1{
+        width: 100%;
+       height: 350px;
+       margin-top: 30px;
+
+    }
+}
+
+@media (max-width: 500px) {
+
+    .ManuSection{
+        padding-top: 30px;
+    }
+    .img-1{
+        width: 100%;
+       height: 300px;
+       margin-top: 25px;
+
+    }
+}

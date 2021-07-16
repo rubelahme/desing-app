@@ -1,0 +1,88 @@
+.Service{
+    padding-top: 80px;
+    color: black;
+    padding-bottom: 80px;
+}
+.ServiceOne p{
+padding: 0;
+margin: 0;
+font-size: 20px;
+}
+.ServiceOne h2{
+    padding: 0;
+    margin: 0;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.ServiceOne {
+    padding-bottom: 50px;
+}
+.ServiceTwo{
+  background-color: rgba(245, 245, 245, 0.815); 
+  margin-top: 20px;
+  cursor: pointer;
+  padding: 10px;
+}
+.ServiceTwo:hover{
+    background-color:rgba(220, 220, 220, 0.918);
+    border-radius: 10px;
+}
+.ServiceTwo img{
+    width: 60%;
+    height: 150px;
+}
+.ServiceTwo h4{
+    font-size: 25px;
+    padding-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+}
+.ServiceTwo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+.ServiceTwo h6{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+.Explore{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: whitesmoke;
+    border: 1px solid whitesmoke;
+    padding: 5px 8px;
+    border-radius: 10px;
+    background-image: linear-gradient(to right, rgba(255, 0, 0, 0.637), rgba(255,0,0,1));
+}
+
+@media (max-width: 768px) and (min-width: 501px) {
+    .ServiceOne h2{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .ServiceOne p{
+        font-size: 15px;
+        }
+        .Service{
+        padding-top: 40px;
+        padding-bottom: 40px;
+         
+        }
+}
+
+@media (max-width: 500px) {
+
+    .ServiceOne h2{
+        font-size: 25px;
+        font-weight: 400;
+    }
+    .ServiceOne p{
+        font-size: 15px;
+        }
+        .Service{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        }
+}
