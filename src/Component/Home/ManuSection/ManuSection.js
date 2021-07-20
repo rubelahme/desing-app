@@ -1,5 +1,6 @@
 import React from 'react';
-import './ManuSection.scss'
+import './ManuSection.scss';
+import Zoom from 'react-reveal/Zoom';
 import img from '../../../img/bernard-hermant-6ftZuO_-b64-unsplash 1.png'
 
 const ManuSection = () => {
@@ -15,7 +16,9 @@ const ManuSection = () => {
             </div>
             <div className="col-md-6">
            <div >
-               <img className='img-1' src={img} alt="" />
+              <Zoom>
+              <img className='img-1' src={img} alt="" />
+              </Zoom>
            </div>
             </div>
         </div>
